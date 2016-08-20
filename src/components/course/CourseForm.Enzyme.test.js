@@ -14,7 +14,7 @@ function setUp(saving) {
 }
 
 describe('CourseForm via Enzyme', () => {
-	it('renders ofrm and h1', () => {
+	it('renders form and h1', () => {
 		const wrapper = setUp(false);
 		expect(wrapper.find('form').length).toBe(1);
 		expect(wrapper.find('h1').text()).toEqual('Manage Course');
